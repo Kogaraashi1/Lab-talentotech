@@ -1,0 +1,283 @@
+/* Reset general */
+body, h1, h2, h3, p, ul, li, fieldset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Estilo para el contenedor cabeza */
+#cabeza {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilo de la lista de navegación */
+#arlist ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#arlist li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2em;
+    
+}
+
+#arlist a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para el h2 principal */
+h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2em;
+}
+
+/* Contenedor de los fieldsets */
+.fieldset {
+    display: flex;
+    justify-content: space-around; /* Espacio entre los fieldsets */
+    gap: 20px; /* Espacio entre los fieldsets */
+    flex-wrap: wrap; /* Asegura que se acomoden en múltiples filas si es necesario */
+    padding: 0 20px;
+}
+
+/* Estilo para los fieldsets */
+fieldset {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: px;
+    padding: 20px;
+    width: 640px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+fieldset:hover{
+    border-color: #169e7c;
+    box-shadow: 0 0 10px #169e7c ;
+    transform: scale(1.09);
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes dentro de los fieldsets */
+fieldset img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los párrafos dentro de los fieldsets */
+fieldset p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    background-color: #eee;
+}
+
+fieldset p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para el div en el pie de página */
+.presentacion {
+    text-align: center;  /* Centra todo el contenido dentro del div */
+    margin-top: 40px;    /* Da un poco de espacio en la parte superior */
+    padding: 20px;       /* Agrega un pequeño padding alrededor del div */
+    background-color: #f8f8f8; /* Color de fondo suave */
+    background-image: url('Disputa_del_Sacramento_(Rafael).jpg');
+    
+}
+
+/* Estilo para la imagen dentro del footer */
+.presentacion img {
+    width: 300px;          /* Establece el tamaño de la imagen */
+    height: auto;          /* Mantiene la relación de aspecto */
+    border-radius: 8px;    /* Redondea las esquinas de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Sombra sutil */
+    margin-bottom: 20px;   /* Espacio entre la imagen y el texto */
+}
+
+/* Estilo para el texto en el footer */
+.presentacion p {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* Estilo para el footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para los enlaces */
+.footer a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las listas en el footer */
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Estilo para los títulos dentro del footer */
+.footer p {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Estilo para los elementos en el footer */
+.footer strong {
+    color: #ff9900; /* Resalta los títulos */
+}
+
+
+.audio-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.audio-btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el contenedor */
+.audio-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    /* Ancho y centrado del formulario */
+    width: 320px;
+    margin: 50px auto; /* Margen superior para separar del encabezado */
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    background-color: #fdeeee; /* Fondo del formulario */
+}
+
+/* Estilos para las etiquetas de los campos del formulario */
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"],
+.formulario input[type="file"] {
+    width: 100%; /* Abarca todo el ancho del formulario */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar */
+.formulario button {
+    width: 100%; /* Abarca todo el ancho del formulario */
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0c0a0c; /* Fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la imagen de vista previa */
+#ver-imagen {
+    display: none; /* Oculto por defecto hasta que se cargue una imagen */
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid #0079eb;
+}
+
+.audio-btn:hover{
+    background-color: red;
+}
+
+
+#Pasatiempos {
+    display: flex;
+    justify-content: center; /* Centra las listas horizontalmente */
+    align-items: center; /* Centra las listas verticalmente */
+    flex-direction: column; /* Asegura que los elementos estén en una columna */
+    text-align: center; /* Centra el texto dentro de las listas */
+    gap: 20px; /* Espacio entre las listas */
+    padding: 20px;
+}
