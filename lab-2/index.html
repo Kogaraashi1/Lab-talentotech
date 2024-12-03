@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="cabeza">
+        <header>
+            <h1>Hernando David Guzman Plaza</h1>
+            <h3>---cualidades---</h3>
+            <nav id="arlist">
+                <ul>
+                    <li id="lista">sexy</li>
+                    <li id="lista">filosofico</li>
+                    <li id="lista">ingeniero de sistemas</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="presentacion">
+        <img src="maravilla.jpeg" alt="">
+        <p>Colosenses 3:23
+            "Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres."
+            – Colosenses 3:23 <br>
+            El trabajo es una parte fundamental de nuestras vidas, y a menudo puede ser un reto. Sin embargo, la Biblia
+            nos enseña que no importa lo que hagamos, debemos hacerlo con dedicación, esfuerzo y, sobre todo, con un
+            corazón dispuesto. El versículo de Colosenses nos recuerda que el verdadero valor de nuestro trabajo no se
+            mide por la aprobación de los demás,
+            sino por la actitud con la que lo realizamos.
+
+            El trabajo duro no es solo una cuestión de resultados materiales,
+            sino de la actitud con la que nos entregamos a él. Cada tarea, por pequeña que parezca, es una oportunidad
+            para mostrar nuestra integridad, compromiso y dedicación. Cuando trabajamos como si estuviéramos sirviendo
+            al Señor mismo, transformamos cada esfuerzo en una oportunidad para crecer, aprender y, lo más importante,
+            reflejar los valores que nos guían.
+        </p>
+
+    </div>
+
+
+
+
+    <h2>cualidades sobre esta personalidad</h2>
+    <div class="fieldset">
+        <fieldset>
+            <legend>
+                <h2>sexy</h2>
+            </legend>
+            <img src="1.jpg" alt="">
+            <p>S : Seguro <br> E : Excepcional<br>X : Xcelente <br>Y : Yocuidadoso</p>
+            <p><strong>"Ser Sexy: Más Allá de la Apariencia" </strong>
+
+                La verdadera belleza de una persona no se mide solo por su apariencia, sino por la energía que emana,
+                las acciones que realiza y la forma en que se conecta con el mundo. Ser SEXY no es solo una cuestión de
+                lo que vemos en el espejo;
+                es la suma de nuestras cualidades internas que reflejan nuestra esencia más auténtica.
+
+                Sensible, porque saber escuchar y comprender a los demás es una de las cualidades más valiosas que
+                puedes tener. La empatía, esa capacidad de ponerte en el lugar del otro, te conecta de una manera
+                profunda y genuina, creando vínculos que van más allá de lo superficial.</p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>filosofico</h2>
+            </legend>
+            <img src="filo.jpg" alt="">
+            <p>"La Sabiduría Filosófica: El Viaje del Conocimiento y la Reflexión"
+
+                La vida, en su complejidad, es un eterno cuestionamiento. Desde que nacemos,
+                nos encontramos inmersos en un mar de preguntas sin respuestas definitivas.
+                La filosofía, ese arte de preguntar y reflexionar, no es un camino fácil, pero es el más liberador.
+                La verdadera sabiduría no radica en las respuestas definitivas, sino en el coraje de cuestionar,
+                de dudar y de buscar siempre más allá de lo evidente.
+
+                El filósofo, aquel que busca comprender el por qué de las cosas, no solo se
+                conforma con las apariencias del mundo. Ve más allá, se sumerge en las profundidades
+                del pensamiento y se enfrenta al misterio de la existencia. Cada pensamiento es una semilla que germina
+                en el terreno fértil de la reflexión, y cada duda es un faro que guía la mente hacia nuevas formas de
+                entender el universo.
+
+                La vida, como un río que fluye hacia lo desconocido, no nos ofrece mapas, sino preguntas.
+                Y es en estas preguntas donde reside el verdadero poder de la filosofía. "¿Qué significa ser?"
+                "¿Por qué existimos?" "¿Cuál es el propósito de todo esto?" Son preguntas que nos asaltan desde
+                el primer momento en que tenemos conciencia de nosotros mismos, y cada una de ellas nos invita a mirar
+                más profundo, a explorar nuestras creencias,
+                nuestras percepciones y nuestras limitaciones.
+
+                Pero la filosofía no es solo un ejercicio mental.
+                Es también una forma de vivir, una manera de estar en el mundo. La reflexión filosófica nos enseña
+                a tomar distancia de las prisas cotidianas, a cuestionar lo que damos por cierto y a abrazar la
+                incertidumbre como parte esencial de nuestra humanidad. Vivir filosóficamente es aceptar que nunca
+                tendremos todas las respuestas, pero que la belleza está en la búsqueda misma, en el proceso de
+                aprender, de crecer y de transformarnos.</p>
+        </fieldset>
+    </div>
+
+    <form class="formulario" action="#" method="POST" enctype="multipart/form-data" id="registroForm">
+        <h2>Registro de Usuario</h2>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>Correo Electrónico:</label>
+        <input type="email" name="email" required>
+
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+
+        <label>Imagen de Perfil:</label>
+        <input type="file" name="imagen" id="imagen" accept="image/*" onchange="mostrarImagen(event)" required>
+
+        <img id="ver-imagen" src="#" alt="Vista previa de la imagen" />
+
+        <button type="submit">Registrar</button>
+    </form>
+
+    <div id="Pasatiempos"> 
+
+     <h2>Mis Pasatiempos o Temas Favoritos</h2>
+     <ul>
+         <li>Leer libros</li>
+         <li>Cocinar nuevas recetas</li>
+         <li>Hacer senderismo</li>
+     </ul>
+ 
+     
+     <h2>Tareas Pendientes</h2>
+     <ol>
+         <li>Hacer oficio</li>
+         <li>Comprar víveres</li>
+         <li>Estudiar para el examen</li>
+     </ol>
+ 
+     
+     <h2>Horarios de la Semana</h2>
+     <table border="1">
+         <thead>
+             <tr>
+                 <th>Día</th>
+                 <th>Actividades</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>Lunes</td>
+                 <td>Hacer oficio</td>
+             </tr>
+             <tr>
+                 <td>Martes</td>
+                 <td>Comprar víveres</td>
+             </tr>
+             <tr>
+                 <td>Miércoles</td>
+                 <td>Estudiar para el examen</td>
+             </tr>
+             <tr>
+                 <td>Jueves</td>
+                 <td>Cocinar nuevas recetas</td>
+             </tr>
+             <tr>
+                 <td>Viernes</td>
+                 <td>Leer libros</td>
+             </tr>
+             <tr>
+                 <td>Sábado</td>
+                 <td>Hacer senderismo</td>
+             </tr>
+             <tr>
+                 <td>Domingo</td>
+                 <td>Descansar</td>
+             </tr>
+         </tbody>
+     </table>
+
+    </div> 
+
+    <div class="audio-container">
+        <!-- Botón para reproducir audio -->
+        <button class="audio-btn" onclick="reproducirAudio()">Reproducir Audio</button>
+        
+        <!-- Audio embebido -->
+        <audio id="miAudio" src="hey.mp3"></audio>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <!-- Campo para el nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <!-- Campo para describir el motivo del contacto -->
+            <label for="motivo">¿Por qué deseas contactarme?</label>
+            <input type="text" id="motivo" name="motivo" required><br><br>
+            
+            <!-- Campo para el correo electrónico -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+    </div>
+
+    
+  
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p><strong>Contacto:</strong></p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:guzmanhernando41@gmail.com">guzmanhernando41@gmail.com</a>
+                </li>
+                <li><strong>Nombre:</strong> Hernando David Guzman Plaza</li>
+                <li><strong>Teléfono:</strong> 3167450378</li>
+            </ul>
+
+            <p><strong>Habilidades Blandas:</strong></p>
+            <ul>
+                <li>Comunicación efectiva</li>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+                <li>Adaptabilidad</li>
+                <li>Gestión del tiempo</li>
+            </ul>
+        </div>
+    </footer>
+<script src="audio.js" ></script>
+</body>
+
+</html>
