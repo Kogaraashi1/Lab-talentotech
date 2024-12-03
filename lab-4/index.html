@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Mi Primer Sitio Web</h1>
+        <p>Este es un sitio web donde compartiré información personal y más.</p>
+    </header>
+
+ 
+    <section id="biografia">
+        <h2>Sobre mí</h2>
+        <p>Hola, mi nombre es Juan Pérez, soy un apasionado de la programación web y me encanta aprender nuevas tecnologías. En este sitio compartiré mis proyectos y mis intereses.</p>
+        <img src="maravilla.jpeg" alt="Mi foto" id="foto">
+    </section>
+
+  
+    <section id="hobbies">
+        <h2>Mis Hobbies</h2>
+        <ul>
+            <li>Leer libros de ciencia ficción</li>
+            <li>Programar en JavaScript</li>
+            <li>Escuchar música electrónica</li>
+        </ul>
+    </section>
+
+  
+    <section id="tareas">
+        <h2>Tareas Prioritarias</h2>
+        <ol>
+            <li>Estudiar JavaScript</li>
+            <li>Desarrollar un proyecto web</li>
+            <li>Leer un libro de desarrollo personal</li>
+        </ol>
+    </section>
+
+  
+    <section id="horario">
+        <h2>Mi Horario Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Programación</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Estudio de matemáticas</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Trabajo en proyecto web</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Lectura de libros</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Revisión de código</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form id="formContacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="motivo">Motivo de contacto:</label>
+            <textarea id="motivo" name="motivo" required></textarea>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+ 
+    <footer>
+        <h2>Redes Sociales</h2>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script> 
+</body>
+</html>

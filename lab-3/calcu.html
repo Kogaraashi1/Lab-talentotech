@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       
+            alert("proporcione dos numeros")
+            let x = parseInt(prompt("ingrese el primer numero : "))
+            let y = parseInt(prompt("ingrese un segundo numero : "))
+            let op = parseInt(prompt("ingrese una opcion:   \n1.suma\n 2.resta\n 3.multiplicacion\n 4.division\n ingrese el dato: "))
+
+            var resul = calculadora(op,x,y)
+    
+
+
+            document.write("el resultado resulto ser: "+resul)
+
+
+
+//funciones
+
+        function calculadora(op,x,y){
+
+
+            let resul
+
+
+
+            switch(op){
+
+                case 1:  resul = suma(x,y)
+                         return resul
+                         break;
+
+                case 2:  resul = restar(x,y)
+                        return resul
+                         break;
+                 
+                case 3:   resul = multi(x,y)    
+                          return resul
+                          break; 
+                
+                case 4:   resul = divi(x,y)
+                          return resul
+                          break;
+
+                default: return("pero como vas a colocar algo que no dije")
+
+            }
+        }
+            
+        function suma(x,y){
+            
+
+            let z = x+y
+            
+            return z
+         }
+         
+         function restar(x,y){
+ 
+             
+            let z = x-y
+ 
+            return z
+ 
+         }
+ 
+         function multi(x,y){
+ 
+              
+            let z = x*y
+ 
+            
+            return z
+         }
+ 
+         function divi(x,y){
+ 
+              let z 
+              if (y === 0) {
+                   alert("No puedes dividir por 0.");
+              } else if (x < 0 || y < 0) {
+                   alert("No puedes dividir si algún número es negativo.");
+              } else {
+                  z = x / y; 
+              }
+            
+ 
+             return z
+ 
+         }
+
+     
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
